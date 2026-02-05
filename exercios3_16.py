@@ -1,14 +1,17 @@
-notas = input('Escreva 5 notas para fazer uma média: ')
+print('Média de notas')
 
-notas_texto = notas.split()
+lista_notas = []
 
-soma = 0
+for n in range(5):
 
-for n in notas_texto:
-    soma = soma + float(n)
+    nota = float(input(f'Escreva a {n + 1}ª nota: '))
 
-    quantidade_notas = len(notas_texto)
+    lista_notas.append(nota)
 
-    media = soma / quantidade_notas
+    soma = sum(lista_notas)
+
+    quantidade_nota = len(lista_notas)
+
+    media = soma / quantidade_nota
 
 print(f'A média dessas notas é de {media} pontos')
