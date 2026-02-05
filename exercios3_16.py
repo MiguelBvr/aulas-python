@@ -10,8 +10,8 @@ for n in range(5):
 
     soma = sum(lista_notas)
 
-    quantidade_nota = len(lista_notas)
+quantidade_nota = len(lista_notas)
 
-    media = soma / quantidade_nota
+media = soma / quantidade_nota
 
 print(f'A média dessas notas é de {media} pontos')
