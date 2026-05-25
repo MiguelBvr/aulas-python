@@ -12,3 +12,17 @@ for n in range(2, numero):
 
     if primo == True:
         print(n)
+
+
+def retorna_primos(numero):
+    primos = []
+
+    for num in range(2, numero):
+        for n in range(2, num):
+            if num % n == 0:
+                break
+        else:
+            primos.append(num)
+    return primos
+
+print(retorna_primos(30))

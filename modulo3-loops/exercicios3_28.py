@@ -10,7 +10,7 @@ for letra in frase:
     if letra.lower() in 'aeiou':
         vogais = vogais + 1
 
-    elif letra in ' ':
+    elif letra == ' ':
         espaços = espaços + 1        
     
     elif letra.isalpha():

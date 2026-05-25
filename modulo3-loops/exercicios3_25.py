@@ -15,5 +15,3 @@ while numero_jogador != numero_maquina:
     if numero_jogador == numero_maquina:
 
         print(f'Você acertou o número, que era {numero_maquina}')
-
-       
