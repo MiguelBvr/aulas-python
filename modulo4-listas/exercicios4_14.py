@@ -1,5 +1,5 @@
 caixa = ['caderno', 'lápis', 'carrgador']   
 
-caixa_limpa = caixa.clear()
+caixa.clear()
 
-print(caixa_limpa)
+print(caixa)
