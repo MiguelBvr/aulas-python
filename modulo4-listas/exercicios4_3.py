@@ -1,3 +1,5 @@
-animais = ['leão', 'macaco', 'cachorro', 'gato', 'camelo']
+tarefas = []
+tarefas.append('tarefa-1')
 
-print(animais[0], animais[4])
+print(tarefas)
+
