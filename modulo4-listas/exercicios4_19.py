@@ -1,6 +1,7 @@
-vidas = [1, 2, 3, 4, 5]
+vidas = [0, 1, 2, 3, 4, 5]
 
-while vidas:
-    print(f'Você ainda tem {len(vidas)} vida(s)')
-    
-    vidas.pop(0)
+index = 5
+
+while index >= 0:
+    print(f'Você ainda tem {vidas[index]} vida(s)')
+    index -= 1
